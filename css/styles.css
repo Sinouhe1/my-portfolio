@@ -4,3 +4,40 @@ body {
   padding: 2rem;
   background: #f9f9f9;
 }
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(55, 56, 55);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.navbar li {
+}
+
+
+.navbar a {
+color: rgb(251, 251, 255);
+text-decoration: none;
+padding: 15px 20px;
+display: block;
+text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(93, 87, 87);
+}
