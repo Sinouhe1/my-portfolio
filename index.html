@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rosarivo:ital@0;1&display=swap"
+    rel="stylesheet">
   <title>Sinouhé's Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <script src="script.js"></script>
 </head>
 
 <body>
   <!--Site container-->
-  <div class= "container logo-header">
+  <div class="container">
     <!--Navigation bar-->
-      <header class="header">
-        <nav class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <!-- Hiding MyGPT nav item for now -->
-           <!--<li><a href="#mygpt" class="hidden">MyGPT</a></li>-->
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Get in touch!</a></li>
-          </ul>
-        </nav>
-      </header>
-  <!--Site Hero-->
+    <header class="header">
+      <!--logo (outside nav)-->
+      <!--navidation links-->
+      <nav class="navbar">
+        <a href="index.html" class="logo-header">
+          <img src="images/logo-sinouhe.svg" alt="logo-sinouhe" class="logo" />
+          <span>Portfolio of Sinouhé</span>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <!-- Hiding MyGPT nav item for now -->
+          <!--<li><a href="#mygpt" class="hidden">MyGPT</a></li>-->
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Get in touch!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Site Hero-->
     <section class="hero-section">
       <h1>Hero's section</h1>
       <p>Can add some information around here</p>
@@ -33,14 +46,16 @@
     <main id="main">
       <section class="featured-projects">
         <h2>Featured Projects</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consequat nisl. Sed a fringilla nisi. Suspendisse sit
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consequat nisl. Sed a fringilla nisi.
+          Suspendisse sit
           a,iaculis nec sodales et, rutrum nec erat.</p>
       </section>
     </main>
-<!-- Footer (optional for now)-->
+    <!-- Footer (optional for now)-->
     <footer>
       <p>&copy; 2025 Sinouhé. All rights reserved.</p>
     </footer>
   </div>
 </body>
+
 </html>
