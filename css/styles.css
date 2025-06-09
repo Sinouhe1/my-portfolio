@@ -86,6 +86,10 @@ h2 {
   transition: 0.3s;
 }
 
+.nav-menu.show {
+  display: block !important;
+}
+
 /* Container */
 .container {
   max-width: 1200px;
