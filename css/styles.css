@@ -23,7 +23,7 @@ h2 {
 
 /* Navigation bar*/
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -34,6 +34,7 @@ h2 {
   align-items: center;
   background-color: rgb(171, 248, 248);
   padding: 1rem;
+  z-index: 1000;
 }
 
 .navbar ul {
