@@ -4,41 +4,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rosarivo:ital@0;1&display=swap"
+    rel="stylesheet">
   <title>Sinouhé's Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+  <!--Site container-->
   <div class="container">
-    <div>
-      <header class="header">
-        <nav class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <!-- Hiding MyGPT nav item for now -->
-            <!--<li><a href="#mygpt" class="hidden">MyGPT</a></li>-->
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Get in touch!</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <!--Navigation bar-->
+    <header class="header">
+      <!--logo (outside nav)-->
+      <!--navidation links-->
+      <nav class="navbar">
+        <a href="index.html" class="logo-header">
+          <img src="images/logo-sinouhe.svg" alt="logo-sinouhe" class="logo" />
+        </a>
+        <!-- Hamburger Button-->
+        <button class="hamburger" id="hamburger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <!-- Hiding MyGPT nav item for now -->
+          <!--<li><a href="#mygpt" class="hidden">MyGPT</a></li>-->
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Get in touch!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Site Hero-->
+    <section class="hero-section">
+      <h1>About Me</h1>
+      <p>Can add some information around here</p>
+    </section>
+
+    <main id="main">
+    </main>
+    <!-- Footer (optional for now)-->
+    <footer>
+      <p>&copy; 2025 Sinouhé. All rights reserved.</p>
+    </footer>
   </div>
-
-  <main>
-    <h2>About me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consequat nisl. Sed a fringilla nisi. Suspendisse
-      sit
-      amet fringilla dui, sit amet varius purus. Mauris semper massa vitae mi viverra, a imperdiet erat euismod. Nulla
-      vitae
-      tempor leo, vel elementum massa. In vehicula euismod vehicula. Vivamus non tortor blandit, dictum turpis eget,
-      fringilla
-      quam. Nulla nibh elit, vulputate mattis blandit vitae, varius sed metus. Etiam id lectus ut massa condimentum
-      pellentesque. Nulla facilisi. Aliquam vitae sem mi. Integer massa turpis, iaculis nec sodales et, rutrum nec erat.
-    </p>
-  </main>
-
+  <script src="script.js"></script>
 </body>
+
 </html>
+
